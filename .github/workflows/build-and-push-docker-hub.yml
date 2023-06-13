@@ -3,7 +3,7 @@ name: Build, Push, Ssh, Pull, Down, Up
 on:
   push:
     branches:
-      - 'staging'
+      - 'main'
 
 jobs:
   build-and-push:
